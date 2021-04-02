@@ -1,4 +1,4 @@
-<?php $WEBSITE_NAME = "Eposting";
+<?php $WEBSITE_NAME = "eposting";
 $WEBSITE_PROFILE_URL = "";
 $WEBSITE_WEBSITE = "";
 $WEBSITE_DESCRIPTION = "";
