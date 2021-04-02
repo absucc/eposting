@@ -13,7 +13,7 @@ if(isset($_GET["n"])){
   $i = 0;
   $hash = "#";
   while ($i < $count_sw) {
-    if (substr($sw[$i], 0, 1) === $hash) {
+    if (substr($sw[$i], 0, 1) == $hash) {
       $real_tag = str_replace("#", "", $sw[$i]);
       $sw[$i] = "<a href='".$prefix_htag.$real_tag."'>".$sw[$i]."</a>";
     }
@@ -26,7 +26,8 @@ if(isset($_GET["n"])){
     $parts=pathinfo($data[$real_id][3]);
     echo "  <video class='show' poster='".$data[$real_id][3]."' controls><source src='".$data[$real_id][4]."' type='video/".$parts['extension']."'></video><br>";
   }
-  echo $title;
+  echo $title."<br>\n";
+  echo "Uploaded by".$data[$real_id][2]."<br>\n";
   if($WEBSITE_UTTERANCES==True) {
     echo "<br>".$WEBSITE_UTTERANCES_SCRIPT;
   }
