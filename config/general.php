@@ -6,5 +6,5 @@ $WEBSITE_EMAIL = "";
 $WEBSITE_HTACCESS = False;
 
 // UTTERANCES (Comment section)
-$WEBSITE_UTTERANCES = False;
-$WEBSITE_UTTERANCES_SCRIPT = ''; ?>
+$WEBSITE_UTTERANCES = True;
+$WEBSITE_UTTERANCES_SCRIPT = '<script src="https://utteranc.es/client.js" repo="absucc/eposting" issue-term="url" theme="github-light" crossorigin="anonymous" async></script>'; ?>
