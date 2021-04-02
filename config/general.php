@@ -1,5 +1,5 @@
 <?php $WEBSITE_NAME = "eposting";
-$WEBSITE_PROFILE_URL = "";
+$WEBSITE_PROFILE_URL = "https://shiba.banana.dog/accounts/avatars/000/177/070/original/4129222e7ab86b6a.png";
 $WEBSITE_WEBSITE = "";
 $WEBSITE_DESCRIPTION = "";
 $WEBSITE_EMAIL = "";
