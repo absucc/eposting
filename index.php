@@ -6,7 +6,7 @@ $ao = 0;
 $next = $a + 1;
 echo "<div class='feed'>\n";
 while($ao < count($data)){
-  echo "<a href='$prefix_pub$next'><span class='mini'><img src='".$data[$a][2]."' title='".$data[$a][1]."'></span></a>";
+  echo "<a href='$prefix_pub$next'><span class='mini'><img src='".$data[$a][3]."' title='".$data[$a][1]."'></span></a>";
   $a--; $ao++; $next--;
 }
 
