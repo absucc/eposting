@@ -1,5 +1,4 @@
-<?php
-$WEBSITE_NAME = "Title";
+<?php $WEBSITE_NAME = "Eposting";
 $WEBSITE_PROFILE_URL = "";
 $WEBSITE_WEBSITE = "";
 $WEBSITE_DESCRIPTION = "";
@@ -8,7 +7,4 @@ $WEBSITE_HTACCESS = False;
 
 // UTTERANCES (Comment section)
 $WEBSITE_UTTERANCES = False;
-$WEBSITE_UTTERANCES_SCRIPT = '';
-/* Get it on https://utteranc.es
-Example: <script src="https://utteranc.es/client.js" repo="[repo]" issue-term="url" theme="[theme]" crossorigin="anonymous" async></script> */
-?>
+$WEBSITE_UTTERANCES_SCRIPT = ''; ?>
