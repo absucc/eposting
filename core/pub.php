@@ -21,10 +21,10 @@ if(isset($_GET["n"])){
   }
   $title = implode(" ", $sw);
   if($data[$real_id][0] == "image") {
-    echo "<img class='show' src='".$data[$real_id][2]."' title='".$data[$real_id][1]."'><br>";
+    echo "<img class='show' src='".$data[$real_id][3]."' title='".$data[$real_id][1]."'><br>";
   } elseif($data[$real_id][0] == "video") {
     $parts=pathinfo($data[$real_id][3]);
-    echo "  <video class='show' poster='".$data[$real_id][2]."' controls><source src='".$data[$real_id][3]."' type='video/".$parts['extension']."'></video><br>";
+    echo "  <video class='show' poster='".$data[$real_id][3]."' controls><source src='".$data[$real_id][4]."' type='video/".$parts['extension']."'></video><br>";
   }
   echo $title;
   if($WEBSITE_UTTERANCES==True) {
