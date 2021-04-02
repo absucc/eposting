@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^p'(.*)$ ./pub.php?n=$1
+RewriteRule ^h'(.*)$ ./htag.php?t=$1
