@@ -7,7 +7,7 @@ Good luck! */
 $data = [
   [
     "image",
-    'My face when<br>My face when the girl who proposed to me 5 minutes ago publishes "Challenge completed"<br>#español #xdnt',
+    'My face when<br>My face when the girl who proposed to me 5 minutes ago publishes "Challenge completed"<br>#espanol #xdnt',
     "https://cdn.discordapp.com/attachments/819742251453775912/827300161482260510/unknown.png"
   ]
 ];
