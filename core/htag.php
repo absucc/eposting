@@ -19,7 +19,7 @@ if(isset($_GET["t"])){
     $hash = "#".$string;
     while ($i < $count_sw) {
       if (substr($sw[$i], 0, number_format(strlen($_GET["t"])) + 1) == $hash) {
-        echo "<a href='$prefix_pub$next'><span class='mini'><img src='".$data[$a][2]."' title='".$data[$a][1]."'></span></a>";
+        echo "<a href='$prefix_pub$next'><span class='mini'><img src='".$data[$a][3]."' title='".$data[$a][1]."'></span></a>";
       }
       $i++;
     }
