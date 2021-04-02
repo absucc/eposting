@@ -7,14 +7,8 @@ Good luck! */
 $data = [
   [
     "image",
-    "Test #funny",
-    "https://files.mastodon.online/media_attachments/files/105/963/772/571/166/206/original/97a401242b834375.jpg"
-  ],
-  [
-    "video",
-    "Test",
-    "https://duckduckgo.com/i/045e1bff.jpg",
-    "https://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_720p_stereo.ogg"
+    "My face when<br>My face when the girl who proposed to me 5 minutes ago publishes 'Challenge completed'<br>#español",
+    "https://cdn.discordapp.com/attachments/819742251453775912/827300161482260510/unknown.png"
   ]
 ];
 ?>
