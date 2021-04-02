@@ -12,8 +12,8 @@ $data = [
   ],
   [
     "video",
+    "by Percha TV#[CENSURED] (Discord)",
     "https://raw.githubusercontent.com/absucc/ecdn/main/2.PNG",
     "https://shiba.banana.dog/media_attachments/files/010/750/822/original/1a242bf299edec45.mp4"
   ]
-];
-?>
+]; ?>
