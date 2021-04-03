@@ -5,7 +5,8 @@ function theError($errno, $errstr) {
 set_error_handler("theError");
 if(isset($_GET["n"])){
   $real_id = number_format($_GET["n"])-1;
-  $webtitle = $WEBSITE_NAME.': "'.$data[$real_id][1].'"';
+  $titlelol = str_replace("<br>", " ", $data[$real_id][1]);
+  $webtitle = $WEBSITE_NAME.': "'.$titlelol.'"';
   include "core/includes/header.php";
   $title = $data[$real_id][1];
   $sw = explode(" ", $title);
@@ -29,7 +30,7 @@ if(isset($_GET["n"])){
   echo $title."<br>\n";
   if($data[$real_id][2]==$WEBSITE_BADGE_STAFF){$staff_badge=" <span style='background:black;color:white;'>STAFF</span>";}else{$staff_badge="";}
   echo "<span class='uploaded'>Uploaded by <a href='https://github.com/".$data[$real_id][2]."'>".$data[$real_id][2]."</a>$staff_badge</span><br><br>\n";
-  echo "Short URL: <code>https://e.l64.repl.co/".$_GET['n']."</code><br>\n";
+  echo "Short URL: <code style='background:grey'><a href='https://e.l64.repl.co/".$_GET['n']."'>https://e.l64.repl.co/".$_GET['n']."</a></code><br>\n";
   if($WEBSITE_UTTERANCES==True) {
     echo "<br>".$WEBSITE_UTTERANCES_SCRIPT;
   }
