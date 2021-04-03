@@ -24,10 +24,11 @@ if(isset($_GET["n"])){
     echo "<img class='show' src='".$data[$real_id][3]."' title='".$data[$real_id][1]."'><br>";
   } elseif($data[$real_id][0] == "video") {
     $parts=pathinfo($data[$real_id][4]);
-    echo "  <video class='show' poster='".$data[$real_id][3]."' controls><source src='".$data[$real_id][4]."' type='video/".$parts['extension']."'></video><br>";
+    echo "<video class='show' poster='".$data[$real_id][3]."' controls><source src='".$data[$real_id][4]."' type='video/".$parts['extension']."'></video><br>";
   }
   echo $title."<br>\n";
-  echo "<span class='uploaded'>Uploaded by <a href='https://github.com/".$data[$real_id][2]."'>".$data[$real_id][2]."</a></span><br>\n";
+  echo "<span class='uploaded'>Uploaded by <a href='https://github.com/".$data[$real_id][2]."'>".$data[$real_id][2]."</a></span><br><br>\n";
+  echo "Short URL: <code>https://e.l64.repl.co/".$_GET["u"]."'</code><br>\n";
   if($WEBSITE_UTTERANCES==True) {
     echo "<br>".$WEBSITE_UTTERANCES_SCRIPT;
   }
