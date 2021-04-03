@@ -13,3 +13,7 @@ Edit config/images.php like these:
     "" // Video (Only use when media type is video)
   ],
 ```
+## Rules
+- Don't post void memes
+- Don't be racist/xenofobic/nazi/etc
+- Don't talk or upload memes about politics
