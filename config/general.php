@@ -1,9 +1,12 @@
-<?php $WEBSITE_NAME = "eposting";
+<?php // Don't touch
+$WEBSITE_NAME = "eposting";
 $WEBSITE_PROFILE_URL = "https://shiba.banana.dog/accounts/avatars/000/177/070/original/4129222e7ab86b6a.png";
 $WEBSITE_WEBSITE = "";
 $WEBSITE_DESCRIPTION = "";
 $WEBSITE_EMAIL = "";
 $WEBSITE_HTACCESS = False;
+
+$WEBSITE_BADGE_STAFF = "absucc";
 
 // UTTERANCES (Comment section)
 $WEBSITE_UTTERANCES = True;
