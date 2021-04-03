@@ -30,7 +30,7 @@ if(isset($_GET["n"])){
   echo $title."<br>\n";
   if($data[$real_id][2]==$WEBSITE_BADGE_STAFF){$staff_badge=" <span style='background:black;color:white;'>STAFF</span>";}else{$staff_badge="";}
   echo "<span class='uploaded'>Uploaded by <a href='https://github.com/".$data[$real_id][2]."'>".$data[$real_id][2]."</a>$staff_badge</span><br><br>\n";
-  echo "Short URL: <code style='background:grey'><a href='https://e.l64.repl.co/".$_GET['n']."'>https://e.l64.repl.co/".$_GET['n']."</a></code><br>\n";
+  echo "Short URL: <code style='background:#dddddd;border-radius:1px;'><a href='https://e.l64.repl.co/".$_GET['n']."'>https://e.l64.repl.co/".$_GET['n']."</a></code><br>\n";
   if($WEBSITE_UTTERANCES==True) {
     echo "<br>".$WEBSITE_UTTERANCES_SCRIPT;
   }
