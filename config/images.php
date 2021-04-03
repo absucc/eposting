@@ -17,5 +17,11 @@
     "She's right",
     "absucc",
     "https://shiba.banana.dog/media_attachments/files/010/689/087/original/ad9e7704aa85352b.png"
+  ],
+  [
+    "image",
+    "Youtuber comments in the video of someone<br>Their followers: What are you doin' here?!!",
+    "absucc",
+    "https://shiba.banana.dog/media_attachments/files/010/650/217/original/710a35c3afbc1ddd.png"
   ]
 ]; ?>
