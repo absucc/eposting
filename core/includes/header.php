@@ -20,7 +20,7 @@ if($pub==True) {
   if($WEBSITE_PROFILE_URL!=False){$webphotofinal='<img style="border-radius:100%;width:50px;height:50px;" src="'.$WEBSITE_PROFILE_URL.'"> ';}else{$webphotofinal="";}
   echo "<h1>$webphotofinal$WEBSITE_NAME</h1>";
   echo '<a href="https://github.com/absucc/eposting/discussions">Forum</a> - <a rel="me" href="https://banana.dog/@e">Mastodon</a> - <a href="https://github.com/absucc/eposting">Collaborate</a>';
-  if($WEBSITE_DESCRIPTION!=False){echo"<p>$WEBSITE_DESCRIPTION</p>";}
+  if($WEBSITE_DESCRIPTION!=False){echo"<p id='description'>$WEBSITE_DESCRIPTION</p>";}
   if($WEBSITE_WEBSITE!=False){echo "<a href=\"$WEBSITE_WEBSITE\">$WEBSITE_WEBSITE</a><br>";}
   if($WEBSITE_EMAIL!=False){$WEBSITE_EMAIL=strtolower($WEBSITE_EMAIL);echo "<a href=\"mailto:$WEBSITE_EMAIL\">$WEBSITE_EMAIL</a><br>";}
 } ?>
