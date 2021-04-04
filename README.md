@@ -17,3 +17,5 @@ Edit config/images.php like these:
 - Don't post void memes
 - Don't be racist/xenofobic/nazi/etc
 - Don't talk or upload memes about politics
+## Please
+- Don't edit config/general.php
