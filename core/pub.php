@@ -6,7 +6,7 @@ set_error_handler("theError");
 if(isset($_GET["n"])){
   $real_id = number_format($_GET["n"])-1;
   $titlelol = str_replace("<br>", " ", $data[$real_id][1]);
-  $webtitle = $WEBSITE_NAME.': "'.$titlelol.'"';
+  $webtitle = $data[$real_id][2].': "'.$titlelol.'" | '.$WEBSITE_NAME;
   include "core/includes/header.php";
   $title = $data[$real_id][1];
   $sw = explode(" ", $title);
