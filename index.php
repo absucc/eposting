@@ -1,5 +1,4 @@
-<?php if(isset($_GET["lol"])){echo"<div style='text-align:center'><h1>Nanoiweb</h1>lololol</div>";}elseif(isset($_GET["htag"])){include "core/htag.php";}elseif(isset($_GET["pub"])){include "core/pub.php";}elseif(isset($_GET["rss"])){include "core/rss.php";
-}else{
+<?php if(isset($_GET["lol"])){echo"<div style='text-align:center'><h1>Nanoiweb</h1>lololol</div>";}elseif(isset($_GET["htag"])){include "core/htag.php";}elseif(isset($_GET["pub"])){include "core/pub.php";}elseif(isset($_GET["rss"])){include "core/rss.php";}elseif(isset($_GET["json"])){include "core/json_api.php";}else{
 include "config/general.php"; include "config/images.php"; $webtitle=$WEBSITE_NAME; $pub=False; include "core/includes/header.php";
 $a = count($data) -1;
 $ao = 0;
