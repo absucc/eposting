@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title><?php echo $webtitle ?></title>
+<link rel="shortcut icon" href="<?php echo $WEBSITE_PROFILE_URL ?>">
 <link rel="stylesheet" href="core/css/styles.css">
 <link rel="stylesheet" href="config/custom.css">
 <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="?rss">
