@@ -7,7 +7,7 @@ if(isset($_GET["t"])){
   $a = 0;
   $next = 1;
   $string = strtolower($_GET["t"]);
-  $webtitle = $WEBSITE_NAME.': #'.$string;
+  $webtitle = '#'.$string." | ".$WEBSITE_NAME;
 
   include "includes/header.php";
   echo "<div class='feed'>";
