@@ -11,7 +11,7 @@ Edit config/images.php like these:
     "absucc", // GitHub User
     "https://shiba.banana.dog/accounts/avatars/000/177/070/original/4129222e7ab86b6a.png", // Image
     "" // Video (Only use when media type is video)
-  ],
+  ]
 ```
 ## Rules
 - Don't post void memes
