@@ -1,3 +1,0 @@
-RewriteEngine On
-RewriteRule ^p'(.*)$ ./?pub&n=$1
-RewriteRule ^h'(.*)$ ./?htag&t=$1
