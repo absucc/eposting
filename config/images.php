@@ -38,8 +38,8 @@
   ],
   [
     "image",
-    "Credits: u/Broken_Micy",
+    "FreeFire is was created by the goverment to see how much poor people are in the world<br>Credits: u/Broken_Micy (Reddit)",
     "absucc",
-    "https://raw.githubusercontent.com/eposting/ecdn/blob/main/7.jpg"
+    "https://github.com/eposting/ecdn/blob/main/%F0%9F%A4%A0?raw=true"
   ]
 ]; ?>
