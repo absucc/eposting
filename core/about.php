@@ -6,8 +6,6 @@
   <h2>Staff</h2>
   <p>Lucas "<a href="https://l64.repl.co">Absucc</a>" ???</p>
   <p>andil19</p>
-<p>
-  Software based on <a href="https://absucc.github.io/nanoiweb/">Nanoiweb</a> v1.0.3 (by <a href="https://l64.repl.co">Absucc</a>)<br>&copy;2021 Eposting<br>Under the <a href="https://choosealicense.com/licenses/mit/">MIT License</a>
-</p>
+<p>Software based on <a href="https://absucc.github.io/nanoiweb/">Nanoiweb</a> v1.0.3 (by <a href="https://l64.repl.co">Absucc</a>)<br>&copy;2021 Eposting<br>Under the <a href="https://choosealicense.com/licenses/mit/">MIT License</a><br><a href="https://github.com/eposting/eposting">Source code</a></p>
 </div>
 <?php include "includes/footer.php" ?>
