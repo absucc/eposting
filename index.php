@@ -1,4 +1,4 @@
-<?php if(isset($_GET["lol"])){echo"<div style='text-align:center'><h1>lololololol</h1>Laught.</div>";}elseif(isset($_GET["htag"])){include "core/htag.php";}elseif(isset($_GET["pub"])){include "core/pub.php";}else{
+<?php if(isset($_GET["lol"])){echo"<div style='text-align:center'><h1>lololololol</h1>Laught.</div>";}elseif(isset($_GET["htag"])){include "core/htag.php";}elseif(isset($_GET["pub"])){include "core/pub.php";}elseif(isset($_GET["about"])){include "core/about.php";}else{
 include "config/general.php"; include "config/images.php"; $webtitle=$WEBSITE_NAME; $pub=False; include "core/includes/header.php";
 $a = count($data) -1;
 $ao = 0;
