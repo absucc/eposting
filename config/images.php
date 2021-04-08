@@ -35,5 +35,11 @@
     "Me: *fails to press the (X) button for 1 millimeter*<br>My phone: We're goin' to the Play Store, dude",
     "absucc",
     "https://shiba.banana.dog/media_attachments/files/010/650/201/original/d91ac357daeb0037.png"
+  ],
+  [
+    "image",
+    "Credits: u/Broken_Micy",
+    "absucc",
+    "https://raw.githubusercontent.com/eposting/ecdn/blob/main/7.jpg"
   ]
 ]; ?>
