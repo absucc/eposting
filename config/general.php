@@ -17,4 +17,4 @@ $WEBSITE_BADGE_STAFF = "absucc";
 
 // UTTERANCES (Comment section)
 $WEBSITE_UTTERANCES = True;
-$WEBSITE_UTTERANCES_SCRIPT = '<script src="https://utteranc.es/client.js" repo="absucc/eposting" issue-term="url" theme="github-light" crossorigin="anonymous" async></script>'; ?>
+$WEBSITE_UTTERANCES_SCRIPT = '<script src="https://utteranc.es/client.js" repo="eposting/eposting" issue-term="url" theme="github-light" crossorigin="anonymous" async></script>'; ?>
