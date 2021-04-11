@@ -18,7 +18,7 @@ if(isset($_GET["t"])){
     $i = 0;
     $hash = "#".$string;
     while ($i < $count_sw) {
-      if (substr($sw[$i], 0, number_format(strlen($_GET["t"])) + 1) == $hash) {
+      if (substr($sw[$i], 0, number_format(strlen($_GET["t"])) + 1) === $hash) {
         if(strpos($data[$r][1],"'")){$title=str_replace("'", "\\'", $data[$a][1]);}else{$title=$data[$a][1];}
         echo "<a href='$prefix_pub$next'><span class='mini'><img src='".$data[$a][3]."' title='$title'></span></a>";
       }
