@@ -14,7 +14,7 @@ if(isset($_GET["n"])){
   $i = 0;
   $hash = "#";
   while ($i < $count_sw) {
-    if (substr($sw[$i], 0, 1) === $hash) {
+    if (substr($sw[$i], 0, 1) == $hash) {
       $real_tag = str_replace("#", "", $sw[$i]);
       $sw[$i] = "<a href='".$prefix_htag.$real_tag."'>".$sw[$i]."</a>";
     }
