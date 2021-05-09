@@ -5,8 +5,10 @@ $ao = 0;
 $next = $a + 1;
 echo "<div class='feed'>\n";
 while($ao < count($data)){
-  if(strpos($data[$r][1],"'")){$title=str_replace("'", "\\'", $data[$a][1]);}else{$title=$data[$a][1];}
-  echo "<a href='$prefix_pub$next'><span class='mini'><img src='".$data[$a][3]."' title='$title'></span></a>";
+  if($data[$a][0]!="deleted"){
+    if(strpos($data[$a][1],"'")){$title=str_replace("'", "\\'", $data[$a][1]);}else{$title=$data[$a][1];}
+    echo "<a href='$prefix_pub$next'><span class='mini'><img src='".$data[$a][3]."' title='$title'></span></a>";
+  }
   $a--; $ao++; $next--;
 }
 
