@@ -6,7 +6,7 @@ Edit config/images.php like these:
 2. Put something like these:
 ```
   [
-    "image", // Media Type -> image/video/deleted (use this for delete a post)
+    "image", // Media Type -> image/video/deleted (use this to delete a post)
     'lol', // Title
     "absucc", // GitHub User
     "https://shiba.banana.dog/accounts/avatars/000/177/070/original/4129222e7ab86b6a.png", // Image
