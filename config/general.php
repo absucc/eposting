@@ -13,7 +13,7 @@ if($wdrand==1){
 $WEBSITE_EMAIL = "";
 $WEBSITE_HTACCESS = False;
 
-$WEBSITE_BADGE_STAFF = "absucc" or "andil19";
+$WEBSITE_BADGE_STAFF = "absucc" or "andil19" or "lu700";
 
 // UTTERANCES (Comment section)
 $WEBSITE_UTTERANCES = True;
